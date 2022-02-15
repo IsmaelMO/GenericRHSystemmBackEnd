@@ -50,6 +50,8 @@ namespace GenericRHSystemBackEnd.Controllers
             }
             catch (Exception e)
             {
+                Console.WriteLine("Exception smz: ");
+                Console.WriteLine(e);
                 return BadRequest();
             }
             
